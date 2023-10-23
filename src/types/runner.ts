@@ -1,5 +1,5 @@
 export interface IRunner {
-	run: () => void;
+	run(): void;
 }
 
 export type RunnerType = {
