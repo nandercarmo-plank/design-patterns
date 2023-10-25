@@ -1,4 +1,5 @@
 import { AbstractFactoryPatternTest } from "./patterns/abstract-factory";
+import { AdapterPatternTest } from "./patterns/adapter";
 import { BuilderPatternTest } from "./patterns/builder";
 import { FactoryPatternTest } from "./patterns/factory";
 import { PrototypePatternTest } from "./patterns/prototype";
@@ -13,7 +14,8 @@ const runners: RunnerType[] = [
 	AbstractFactoryPatternTest,
 	BuilderPatternTest,
 	PrototypePatternTest,
-	SingletonPatternTest
+	SingletonPatternTest,
+	AdapterPatternTest
 ];
 
 runners.forEach(runner => {
