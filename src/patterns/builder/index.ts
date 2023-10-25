@@ -36,6 +36,6 @@ export const BuilderPatternTest: RunnerType = {
 		{ name: "Should create a double bacon cheeseburguer", test: new BuilderPattern("Double Bacon Cheeseburguer") },
 		{ name: "Should create a triple bacon cheeseburguer", test: new BuilderPattern("Triple Bacon Cheeseburguer") },
 	],
-	pattern: "BuilderPattern",
+	pattern: "Builder",
 	shouldRun: true
 };

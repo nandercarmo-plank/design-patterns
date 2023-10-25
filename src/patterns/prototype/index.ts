@@ -31,6 +31,6 @@ export const PrototypePatternTest: RunnerType = {
 		{ name: "Should clone a white sheep", test: new PrototypePattern("white") },
 		{ name: "Should clone a brown sheep", test: new PrototypePattern("brown") }
 	],
-	pattern: "PrototypePattern",
+	pattern: "Prototype",
 	shouldRun: true
 };

@@ -33,6 +33,6 @@ export const AdapterPatternTest: RunnerType = {
 		{ name: "Should use console logger", test: new AdapterPattern("console") },
 		{ name: "Should use json logger", test: new AdapterPattern("json") }
 	],
-	pattern: "AdapterPattern",
+	pattern: "Adapter",
 	shouldRun: true
 };

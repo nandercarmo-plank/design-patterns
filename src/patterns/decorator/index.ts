@@ -38,6 +38,6 @@ export const DecoratorPatternTest: RunnerType = {
 		{ name: "Should log using a timestamp and info decorator", test: new DecoratorPattern(["timestamp", "info" ]) },
 		{ name: "Should log using a timestamp and error decorator", test: new DecoratorPattern(["timestamp", "error"]) }
 	],
-	pattern: "DecoratorPattern",
+	pattern: "Decorator",
 	shouldRun: true
 };

@@ -27,6 +27,6 @@ export const CompositePatternTest: RunnerType = {
 		{ name: "Should compute a basic division", test: new CompositePattern("5 10 /") },
 		{ name: "Should compute a complex expression", test: new CompositePattern("1 2 + 3 4 - *") },
 	],
-	pattern: "CompositePattern",
+	pattern: "Composite",
 	shouldRun: true
 };

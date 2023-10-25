@@ -46,6 +46,6 @@ export const BridgePatternTest: RunnerType = {
 		{ name: "Should use a web player and the Radio platform", test: new BridgePattern({ player: "Web", platform: "Radio" }) },
 		{ name: "Should use a mobile player and the Radio platform", test: new BridgePattern({ player: "Mobile", platform: "Radio" }) }
 	],
-	pattern: "BridgePattern",
+	pattern: "Bridge",
 	shouldRun: true
 };

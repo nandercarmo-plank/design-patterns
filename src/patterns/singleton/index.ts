@@ -39,6 +39,6 @@ export const SingletonPatternTest: RunnerType = {
 		{ name: "Should log using the same Logger instance", test: new SingletonPattern("log") },
 		{ name: "Should log errors using the same Logger instance", test: new SingletonPattern("error") }
 	],
-	pattern: "SingletonPattern",
+	pattern: "Singleton",
 	shouldRun: true
 };
