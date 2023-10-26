@@ -2,6 +2,7 @@ import { AbstractFactoryPatternTest } from "./patterns/abstract-factory";
 import { AdapterPatternTest } from "./patterns/adapter";
 import { BridgePatternTest } from "./patterns/bridge";
 import { BuilderPatternTest } from "./patterns/builder";
+import { ChainOfResponsabilityPatternTest } from "./patterns/chain-of-responsability";
 import { CompositePatternTest } from "./patterns/composite";
 import { DecoratorPatternTest } from "./patterns/decorator";
 import { Decorator } from "./patterns/decorator/interfaces/Decorator";
@@ -28,7 +29,8 @@ const runners: RunnerType[] = [
 	DecoratorPatternTest,
 	FacadePatternTest,
 	FlyweightPatternTest,
-	ProxyPatternTest
+	ProxyPatternTest,
+	ChainOfResponsabilityPatternTest
 ];
 
 runners.forEach(runner => {
