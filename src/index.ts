@@ -9,6 +9,7 @@ import { FacadePatternTest } from "./patterns/facade";
 import { FactoryPatternTest } from "./patterns/factory";
 import { FlyweightPatternTest } from "./patterns/flyweight";
 import { PrototypePatternTest } from "./patterns/prototype";
+import { ProxyPatternTest } from "./patterns/proxy";
 import { SingletonPatternTest } from "./patterns/singleton";
 import { RunnerType } from "./types/runner";
 
@@ -26,7 +27,8 @@ const runners: RunnerType[] = [
 	CompositePatternTest,
 	DecoratorPatternTest,
 	FacadePatternTest,
-	FlyweightPatternTest
+	FlyweightPatternTest,
+	ProxyPatternTest
 ];
 
 runners.forEach(runner => {
