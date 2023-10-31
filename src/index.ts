@@ -1,19 +1,22 @@
-import { AbstractFactoryPatternTest } from "./patterns/abstract-factory";
-import { AdapterPatternTest } from "./patterns/adapter";
-import { BridgePatternTest } from "./patterns/bridge";
-import { BuilderPatternTest } from "./patterns/builder";
-import { ChainOfResponsabilityPatternTest } from "./patterns/chain-of-responsability";
-import { CommandPatternTest } from "./patterns/command";
-import { CompositePatternTest } from "./patterns/composite";
-import { DecoratorPatternTest } from "./patterns/decorator";
-import { Decorator } from "./patterns/decorator/interfaces/Decorator";
-import { FacadePatternTest } from "./patterns/facade";
-import { FactoryPatternTest } from "./patterns/factory";
-import { FlyweightPatternTest } from "./patterns/flyweight";
-import { IteratorPatternTest } from "./patterns/iterator";
-import { PrototypePatternTest } from "./patterns/prototype";
-import { ProxyPatternTest } from "./patterns/proxy";
-import { SingletonPatternTest } from "./patterns/singleton";
+import { AbstractFactoryPatternTest } from "./patterns/creational/abstract-factory";
+import { FactoryPatternTest } from "./patterns/creational/factory";
+import { BuilderPatternTest } from "./patterns/creational/builder";
+import { PrototypePatternTest } from "./patterns/creational/prototype";
+import { SingletonPatternTest } from "./patterns/creational/singleton";
+
+import { AdapterPatternTest } from "./patterns/structural/adapter";
+import { BridgePatternTest } from "./patterns/structural/bridge";
+import { CompositePatternTest } from "./patterns/structural/composite";
+import { DecoratorPatternTest } from "./patterns/structural/decorator";
+import { FacadePatternTest } from "./patterns/structural/facade";
+import { FlyweightPatternTest } from "./patterns/structural/flyweight";
+import { ProxyPatternTest } from "./patterns/structural/proxy";
+
+import { MediatorPatternTest } from "./patterns/behavorial/mediator";
+import { ChainOfResponsabilityPatternTest } from "./patterns/behavorial/chain-of-responsability";
+import { CommandPatternTest } from "./patterns/behavorial/command";
+import { IteratorPatternTest } from "./patterns/behavorial/iterator";
+
 import { RunnerType } from "./types/runner";
 
 console.clear();
@@ -34,7 +37,8 @@ const runners: RunnerType[] = [
 	ProxyPatternTest,
 	ChainOfResponsabilityPatternTest,
 	CommandPatternTest,
-	IteratorPatternTest
+	IteratorPatternTest,
+	MediatorPatternTest
 ];
 
 runners.forEach(runner => {

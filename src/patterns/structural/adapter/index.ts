@@ -1,4 +1,4 @@
-import { IRunner, RunnerType } from "../../types/runner";
+import { IRunner, RunnerType } from "../../../types/runner";
 import { App } from "./impl/App";
 import { ConsolePrinter } from "./impl/ConsolePrinter";
 import { JsonPrinterAdapter } from "./impl/JsonPrinterAdapter";
