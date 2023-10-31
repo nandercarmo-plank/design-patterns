@@ -10,6 +10,7 @@ import { Decorator } from "./patterns/decorator/interfaces/Decorator";
 import { FacadePatternTest } from "./patterns/facade";
 import { FactoryPatternTest } from "./patterns/factory";
 import { FlyweightPatternTest } from "./patterns/flyweight";
+import { IteratorPatternTest } from "./patterns/iterator";
 import { PrototypePatternTest } from "./patterns/prototype";
 import { ProxyPatternTest } from "./patterns/proxy";
 import { SingletonPatternTest } from "./patterns/singleton";
@@ -32,7 +33,8 @@ const runners: RunnerType[] = [
 	FlyweightPatternTest,
 	ProxyPatternTest,
 	ChainOfResponsabilityPatternTest,
-	CommandPatternTest
+	CommandPatternTest,
+	IteratorPatternTest
 ];
 
 runners.forEach(runner => {
