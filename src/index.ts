@@ -18,6 +18,7 @@ import { CommandPatternTest } from "./patterns/behavorial/command";
 import { IteratorPatternTest } from "./patterns/behavorial/iterator";
 
 import { RunnerType } from "./types/runner";
+import { MementoPatternTest } from "./patterns/behavorial/memento";
 
 console.clear();
 console.log("\nStarting Design Patterns runners...");
@@ -38,7 +39,8 @@ const runners: RunnerType[] = [
 	ChainOfResponsabilityPatternTest,
 	CommandPatternTest,
 	IteratorPatternTest,
-	MediatorPatternTest
+	MediatorPatternTest,
+	MementoPatternTest
 ];
 
 runners.forEach(runner => {
