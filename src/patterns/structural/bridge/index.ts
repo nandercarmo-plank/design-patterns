@@ -1,4 +1,4 @@
-import { IRunner, RunnerType } from "../../types/runner";
+import { IRunner, RunnerType } from "../../../types/runner";
 import { MobilePlayer } from "./abstraction/MobilePlayer";
 import { WebPlayer } from "./abstraction/WebPlayer";
 import { RadioImpl } from "./implementation/RadioImpl";

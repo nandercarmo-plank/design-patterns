@@ -1,4 +1,4 @@
-import { IRunner, RunnerType } from "../../types/runner";
+import { IRunner, RunnerType } from "../../../types/runner";
 import { BurguerBuilder } from "./impl/BurguerBuilder";
 import { BurguerDirector } from "./impl/BurguerDirector";
 import { IBurguer } from "./interfaces/IBurguer";

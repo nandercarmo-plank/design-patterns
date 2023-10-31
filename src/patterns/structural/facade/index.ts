@@ -1,4 +1,4 @@
-import { IRunner, RunnerType } from "../../types/runner";
+import { IRunner, RunnerType } from "../../../types/runner";
 import { BinaryConverterFacade, JsonFormatType } from "./impl/BinayConverterFacade";
 
 class FacadePattern implements IRunner {

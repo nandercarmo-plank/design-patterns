@@ -1,4 +1,4 @@
-import { IRunner, RunnerType } from "../../types/runner";
+import { IRunner, RunnerType } from "../../../types/runner";
 import { Actions, Game } from "./impl/Game";
 
 type CommandPatternParams = {

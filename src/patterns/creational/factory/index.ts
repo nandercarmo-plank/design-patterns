@@ -1,4 +1,4 @@
-import { IRunner, RunnerType } from "../../types/runner";
+import { IRunner, RunnerType } from "../../../types/runner";
 import { CreateArduino } from "./creators/CreateArduino";
 import { CreateESP32 } from "./creators/CreateESP32";
 import { CreateESP8266 } from "./creators/CreateESP8266";

@@ -1,4 +1,4 @@
-import { IRunner, RunnerType } from "../../types/runner";
+import { IRunner, RunnerType } from "../../../types/runner";
 import { ListCollection, ListIteratorType } from "./impl/ListCollection";
 
 type IteratorPatternParams = {

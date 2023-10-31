@@ -1,4 +1,4 @@
-import { IRunner, RunnerType } from "../../types/runner";
+import { IRunner, RunnerType } from "../../../types/runner";
 import { HttpClientProxy } from "./impl/HttpClientProxy";
 
 type ProxyPattermParams = {

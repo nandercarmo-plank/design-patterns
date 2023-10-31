@@ -1,4 +1,4 @@
-import { IRunner, RunnerType } from "../../types/runner";
+import { IRunner, RunnerType } from "../../../types/runner";
 import { Music } from "./impl/Music";
 import { NoteEnum } from "./impl/NoteEnum";
 
