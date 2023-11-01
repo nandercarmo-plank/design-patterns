@@ -21,6 +21,7 @@ import { IteratorPatternTest } from "./patterns/behavorial/iterator";
 import { MementoPatternTest } from "./patterns/behavorial/memento";
 import { ObserverPatternTest } from "./patterns/behavorial/observer";
 import { StatePatternTest } from "./patterns/behavorial/state";
+import { StrategyPatternTest } from "./patterns/behavorial/strategy";
 
 console.clear();
 console.log("\nStarting Design Patterns runners...");
@@ -45,6 +46,7 @@ const runners: RunnerType[] = [
 	MementoPatternTest,
 	ObserverPatternTest,
 	StatePatternTest,
+	StrategyPatternTest
 ];
 
 runners.forEach(runner => {
