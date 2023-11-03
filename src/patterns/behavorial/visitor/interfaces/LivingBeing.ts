@@ -1,5 +1,5 @@
 import { Visitor } from "./Visitor";
 
-export interface LifingBeing {
+export interface LivingBeing {
 	accept(visitor: Visitor): void;
 }

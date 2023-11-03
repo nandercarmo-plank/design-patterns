@@ -2,9 +2,10 @@ import { IRunner, RunnerType } from "../../../types/runner";
 import { Animal } from "./impl/Animal";
 import { Plant } from "./impl/Plant";
 import { PrintVisitor } from "./impl/PrintVisitor";
+import { LivingBeing } from "./interfaces/LivingBeing";
 
 type VisitorPatternParams = {
-	livingBeings: (Animal | Plant)[];
+	livingBeings: LivingBeing[];
 };
 
 class VisitorPattern implements IRunner {

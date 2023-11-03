@@ -1,11 +1,11 @@
-import { LifingBeing } from "../interfaces/LivingBeing";
+import { LivingBeing } from "../interfaces/LivingBeing";
 import { Visitor } from "../interfaces/Visitor";
 
 type AnimalClass = "Mammal" | "Bird" | "Reptile" | "Amphibian" | "Fish" | "Invertebrate";
 type AnimalAlimentation = "Carnivore" | "Herbivore" | "Omnivore";
 type AnimalGender = "Male" | "Female";
 
-export class Animal implements LifingBeing {
+export class Animal implements LivingBeing {
 
 	specie: string;
 	animalClass: AnimalClass;

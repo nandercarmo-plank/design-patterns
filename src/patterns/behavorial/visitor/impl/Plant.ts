@@ -1,10 +1,10 @@
-import { LifingBeing } from "../interfaces/LivingBeing";
+import { LivingBeing } from "../interfaces/LivingBeing";
 import { Visitor } from "../interfaces/Visitor";
 
 type PlantType = "Bryophytes" | "Pteridophytes" | "Gymnosperms" | "Angiosperms";
 type PlantSize = "small" | "medium" | "large";
 
-export class Plant implements LifingBeing {
+export class Plant implements LivingBeing {
 	
 	type: PlantType;
 	size: PlantSize;
